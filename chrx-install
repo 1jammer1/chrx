@@ -266,10 +266,10 @@ determine_osv_ubuntu()
     disco)   CHRX_OS_VERSION="19.04" ;;   # EOL 202001
     eoan)    CHRX_OS_VERSION="19.10" ;;   # EOL 202007
     focal)   CHRX_OS_VERSION="20.04" ;;   # EOL 202504
-    g*)      CHRX_OS_VERSION="20.10" ;;   # EOL 202107
-    h*)      CHRX_OS_VERSION="21.04" ;;   # EOL 202201
-    i*)      CHRX_OS_VERSION="21.10" ;;   # EOL 202207
-    j*)      CHRX_OS_VERSION="22.04" ;;   # EOL 202704
+    groovy)  CHRX_OS_VERSION="20.10" ;;   # EOL 202107
+    hirsute) CHRX_OS_VERSION="21.04" ;;   # EOL 202201
+    impish)  CHRX_OS_VERSION="21.10" ;;   # EOL 202207
+    jammy)   CHRX_OS_VERSION="22.04" ;;   # EOL 202704
     *)       CHRX_OS_VERSION=${CHRX_OS_RELEASE} ;;
   esac
 
