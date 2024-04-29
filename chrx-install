@@ -270,6 +270,8 @@ determine_osv_ubuntu()
     hirsute) CHRX_OS_VERSION="21.04" ;;   # EOL 202201
     impish)  CHRX_OS_VERSION="21.10" ;;   # EOL 202207
     jammy)   CHRX_OS_VERSION="22.04" ;;   # EOL 202704
+    kinetic) CHRX_OS_VERSION="22.10" ;;   # EOL example
+    Lunar)   CHRX_OS_VERSION="23.04" ;;   # EOL example
     *)       CHRX_OS_VERSION=${CHRX_OS_RELEASE} ;;
   esac
 
