@@ -280,6 +280,8 @@ determine_osv_ubuntu()
   case "${CHRX_OS_VERSION}" in
     "18.04*") ;;
     "16.04*") _ubuntu_corebase='core' ;;
+    "22.10*") _ubuntu_corebase='core' ;;
+    "23.04*") _ubuntu_corebase='core' ;;
     "14.04*") _ubuntu_corebase='core'
       msg_os_version="${ANSI_YEL}(CAUTION: not well-tested!)${ANSI_RST}"
       ;;
